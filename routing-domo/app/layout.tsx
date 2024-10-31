@@ -11,11 +11,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header style={{ backgroundColor: "skyblue", margin: "1px" , padding :'20px'}}>
+        <header
+          style={{
+            backgroundColor: "lightblue",
+            margin: "1px",
+            padding: "20px"
+          }}
+        >
           This is a header
         </header>
         {children}
-        <footer style={{ backgroundColor: "gray", margin: "1px", padding: '20px' }}>
+        <footer
+          style={{
+            backgroundColor: "lightgray",
+            margin: "1px",
+            padding: "20px"
+          }}
+        >
           This is a footer
         </footer>
       </body>
